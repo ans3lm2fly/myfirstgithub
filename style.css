@@ -38,6 +38,7 @@
 }
 .navlinks a:hover {
     color: aqua;
+    background: #333;
 }
 /* Hide Menu-Toggle Button by Default on Desktop */
 .menu-toggle {
@@ -74,4 +75,53 @@ body {
     background-attachment: fixed;
     background-size: 23%;
     background-position: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.sec1 {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.sec1 h2 {
+    font-size: 2.3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.sec1 p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+.sec2 {
+    background-color: pink;
+    text-align: center;
+    padding: 50px 20px;
+}
+.sec2 h2 {
+    font-size: 2.3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.sec2 p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #333;
+    background-color: bisque;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.btn:hover {
+    color: bisque;
+    background-color: #333;
 }
