@@ -1,0 +1,28 @@
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    margin: 20px;
+    background-color: rgba(244, 244, 244, 0.5);
+    text-align: center;
+    padding: 50px 20px;
+    gap: 30px;
+}
+.container3 {
+    width: 500px;
+    margin: 0 auto;
+}
+.services h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+.container4 {
+    line-height: 1.6rem;
+}
+.services p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}

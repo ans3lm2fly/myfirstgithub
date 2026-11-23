@@ -1,0 +1,15 @@
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    margin: 20px;
+    background-color: rgba(255, 255, 0, 0.5);
+    text-align: center;
+    padding: 50px 20px;
+    height: 400px;
+}
+.container4 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
