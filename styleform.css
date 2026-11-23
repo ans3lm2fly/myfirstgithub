@@ -8,6 +8,9 @@
     text-align: center;
     padding: 50px 20px;
     height: 400px;
+    background-image: url('team1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container4 {
     max-width: 1000px;
