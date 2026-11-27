@@ -28,8 +28,9 @@
     width: 60px;
     height: 60px
 }
-.logo h4 {
+a .logo h4 {
     margin: 0;
+    text-decoration: none;
 }
 .navlinks {
     display: flex;
@@ -42,7 +43,7 @@
 }
 .navlinks a:hover {
     color: aqua;
-    background: #333;
+    font-size: 1.2rem;
 }
 /* Hide Menu-Toggle Button by Default on Desktop */
 .menu-toggle {

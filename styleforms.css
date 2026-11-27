@@ -1,0 +1,28 @@
+.form-section {
+    padding: 2rem 5%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+    margin: 20px;
+}
+
+.form-section form,
+.form-img {
+    /* Take 50% width minus gap on wide screens, stocks at 100% below 300px */
+    flex: 1 1 300px;
+}
+
+.form-section input,
+.form-section textarea,
+.form-section button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+::placeholder {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}

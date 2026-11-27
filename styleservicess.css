@@ -1,0 +1,32 @@
+.services {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: grid;
+    align-items: center;
+    padding: 2rem 5%;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #333;
+    margin: 20px;
+    height: 400px;
+}
+.container3 {
+    text-align: center;
+}
+.container3 h3 {
+    font-size: 2rem;
+}
+.container3 p {
+    text-align: center;
+}
+.container4 {
+    line-height: 1.6rem;
+    height: auto;
+}
+.container4 .card {
+    border: 1px solid #333;
+    padding: 7.5px;
+}
+.container4 .card h3 {
+    text-align: center;
+}
